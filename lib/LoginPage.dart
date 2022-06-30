@@ -46,12 +46,12 @@ class _LoginPageState extends State<LoginPage> {
                             labelColor: Colors.black,
                             indicatorColor: Colors.yellow[700],
                             tabs: [
-                              Tab(text: "     Login      ",),
+                              Tab(text: "Login",),
                               GestureDetector(
                                   onTap: (){
                                     Navigator.push(context, MaterialPageRoute(builder: (context)=>SingUp()));
                                   },
-                                  child: Tab(text: "     SingUp     ",)),
+                                  child: Tab(text: "SingUp",)),
                             ]),
                       ),
                     ),
